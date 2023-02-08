@@ -27,10 +27,14 @@ public void rose(float a, float b){
  float x=b*r*cos(theta);
  float y=b*r*sin(theta);
  if(a<2){
+   ellipse(x+400, y+400, a, a);
  }
  else{
    fill(i, g, v);
- ellipse(x+400, y+400, a, a);
+ ellipse(x+200, y+200, a, a);
+ ellipse(x+200, y+600, a, a);
+ ellipse(x+600, y+200, a, a);
+ ellipse(x+600, y+600, a, a);
    rose(a/2, b/1.4);
   
  
